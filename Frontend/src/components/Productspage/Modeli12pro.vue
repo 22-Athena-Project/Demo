@@ -42,4 +42,9 @@ export default  {
 #Btn:hover{
   border: solid #1985A1 ;
 }
+
+#Btn:active, #Btn:focus {
+  outline: 0;
+  border: none;
+}
 </style>

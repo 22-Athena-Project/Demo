@@ -2,7 +2,7 @@
     <ShowDetailProduct>
         <template v-slot:preview_img >
             <img src="@/images/RifleGreenCase_12.jpg" 
-            alt="iphone 12 case">
+            alt="iPhone 12 case">
         </template>
         <template v-slot:ProductName>
         iPhone 12 

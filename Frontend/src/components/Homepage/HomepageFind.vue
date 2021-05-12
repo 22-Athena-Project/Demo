@@ -50,6 +50,11 @@ hr{
   border: solid #1985A1 ;
 }
 
+#Btn:active, #Btn:focus {
+  outline: 0;
+  border: none;
+}
+
 @media only screen and (max-width: 640px){
     #container{
          margin:0 auto;

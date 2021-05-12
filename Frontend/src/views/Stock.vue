@@ -83,7 +83,7 @@
             accept=".jpg, .png, .svg"
             name="imgSrc"
             @change="uploadPhoto"
-            class="absolute top-0 left-0 h-10 opacity-0"
+            class="absolute top-0 left-0 h-14 opacity-0"
           />
           <!-- <i class="text-sm text-red-500" v-if="errors">{{ errors.src }}</i> -->
         </div>
@@ -636,7 +636,7 @@ export default {
 
         this.fetchStock();
 
-        alert("submit button click")
+        alert("submit product successfully")
       } catch(error){
         console.log(`POST error: ${error}`)
       }
